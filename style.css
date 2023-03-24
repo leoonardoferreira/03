@@ -27,8 +27,11 @@ h1 {
     margin-bottom: 3rem;
 }
 
+button::after
+
 button:hover {
     cursor: pointer;
+    background: #000;
 }
 
 .reproduction_buttons {
@@ -39,6 +42,7 @@ button:hover {
 .reproduction_buttons button {
     border: 0;
     background: 0;
+    transition: 400ms;
 }
 
 .sounds {
@@ -61,6 +65,7 @@ button:hover {
         display: grid;
         grid-template-areas: "a";
         place-items: center;
+        padding: 1rem;
     }
     h1 {
         display: flex;
